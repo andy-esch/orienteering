@@ -14,10 +14,6 @@ Machine learning translates well to analyzing geospatial data. Like other machin
 
 Tools are often paired together to balance the strengths of one with the weaknesses of another. For instance, k-NN, which the authors discuss under ANN, "does not provide details about patterns and their structures if they are present..." It instead looks at residuals of the model from the original distribution. Variography is a good complementary tool from geostatistics that can detect the spatial correlations and anisotropies in the data.
 
-+ SVM are used to analyze data and recognize patterns through nonlinear classification and regression with the aim of minimizing empirical risk and model complexity. For geospatial data, it "generalizes well"
-
-+ ANN 
-
 The paper ends with this sentence: "Finally it should be noted, that being a data driven models they need deep expert knowledge in order to be applied correctly and efficiently starting from data pre-processing to the interpretation and justification of the results."
 
 ### Summary
