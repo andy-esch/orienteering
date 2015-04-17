@@ -4,7 +4,7 @@ email:       eschbacher@cartodb.com
 author:      Andy Eschbacher
 description: "researching ways to move maps forward"
 baseurl:     ""
-url:         "/"
+url:         "/orienteering"
 
 # Google analytics
 google_analytics:
