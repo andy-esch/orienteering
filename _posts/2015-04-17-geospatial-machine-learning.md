@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Geospatial Machine Learning
-date:       2015-04-15 13:00:00
+date:       2015-04-17 13:00:00
 summary:    Paper summary and thoughts
 categories: research paper
 ---
