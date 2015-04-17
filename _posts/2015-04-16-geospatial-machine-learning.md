@@ -56,7 +56,7 @@ Variography is a geospatial version of analyzing a variogram, an analysis tool f
 
 \\[ \gamma(h) = \frac{1}{2}\frac{1}{N(h)}\sum_{N(h)} (i - j)^2 \\]
 
-![variogram from NKU](/images/variogram.gif)
+![variogram from NKU]({{site.baseurl}}/images/variogram.gif)
 
 #### Support Vector Machines
 
