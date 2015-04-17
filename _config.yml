@@ -3,8 +3,8 @@ title:       Orienteering
 email:       eschbacher@cartodb.com
 author:      Andy Eschbacher
 description: "researching ways to move maps forward"
-baseurl:     ""
-url:         "/orienteering"
+baseurl:     "ohasseblad.github.io/"
+url:         "orienteering"
 
 # Google analytics
 google_analytics:
