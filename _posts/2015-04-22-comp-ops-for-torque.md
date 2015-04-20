@@ -10,7 +10,7 @@ draft: true
 
 # Comp-opping
 
-There are [33 compositing operations](https://www.mapbox.com/tilemill/docs/guides/comp-op/) available through CartoCSS/Mapnik. The different blending modes are listed below with links to an appropriate description (such as Wikipedia).
+There are [33 compositing operations](https://www.mapbox.com/tilemill/docs/guides/comp-op/) listed in the documentation for CartoCSS/Mapnik. The different blending modes are listed below with links to an appropriate description (such as Wikipedia). There's another undocumented one called `clear` that's not very interesting: it just clears all of the data from the screen.
 
 <table>
   <col />
@@ -33,7 +33,7 @@ The white cell'd ones are color blending options, while the orange ones are alph
 
 ## A little mathy background
 
-Blend modes can be written as mathematical relationships. A blend mode is a mapping that takes pixels from layers to a new value. Mathematically, for a pixel \\(a\\) in \\(L\_{1}\\) and a pixel \\(b\\) in \\(L\_{2}\\) at the same location as \\(a\\), we have \\(f(a,b) = c\\). These functions differ depending on the composite operation chosen.
+Blend modes can be written as mathematical relationships. A blend mode is a mapping that takes pixels from layers to a new value. Mathematically, for a pixel \\(a\\) in \\(L\_{1}\\) and a pixel \\(b\\) in \\(L\_{2}\\) at the same location as \\(a\\), we have \\(f(a,b) = c\\). These functions differ depending on the composite operation chosen. The function is like: \\(f: \mathbb{R}^2 \rightarrow \mathbb{R}\\) for any rgb value \\(a\_{i}, b\_{i}\in [0,1]\\) where \\(i\\) represents red, blue, or green.
 
 ## Color blend modes
 
