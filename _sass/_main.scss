@@ -282,9 +282,11 @@ pre {
 }
 
 blockquote {
-  padding: 1.33em;
+  padding: 0.1em 1.0em;
   font-style: italic;
-  border-left: 5px solid #7a7a7a;
+  border-left: 2px solid #7a7a7a;
+  line-height: 1.3em;
+  font-size: 0.8em;
 }
 
 blockquote footer {
