@@ -5,7 +5,6 @@ date:       2015-04-22 13:00:00
 summary:    Experiments and findings from around the internets
 categories: torque comp-ops
 published: true
-draft: true
 ---
 
 # Comp-opping
@@ -16,6 +15,11 @@ There are [33 compositing operations](https://www.mapbox.com/tilemill/docs/guide
   <col />
   <col />
   <col style="background: rgba(255,165,0,0.5);"/>
+  <tr>
+    <th>Color modes</th>
+    <th>Color modes</th>
+    <th>Alpha modes</th>
+  </tr>
   <tr><td><a href="http://en.wikipedia.org/wiki/Blend_modes#Addition">plus</a></td><td> <a href="http://en.wikipedia.org/wiki/Blend_modes#Difference">difference</a>    </td><td> src      </td></tr>
   <tr><td><a href="http://en.wikipedia.org/wiki/Blend_modes#Subtract">minus</a></td><td><a href="http://en.wikipedia.org/wiki/Blend_modes#Difference">exclusion</a></td><td><a href="">dst</a></td></tr>
   <tr><td><a href="http://en.wikipedia.org/wiki/Blend_modes#Multiply">multiply</a></td><td><a href="">contrast</a></td><td><a href="">src-over</a></td></tr>
@@ -101,6 +105,18 @@ Especially useful to visualize the Duff-Porter fill/mask operations:
 
 ![duff porter imagemagick](http://www.imagemagick.org/Usage/compose/tables/montage_triangles.jpg)
 
+## Comp Op Cheat Sheet
+
+<table>
+    <tr>
+        <th>Use...</th>
+        <th>When you want to do...</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
 
 ## Open questions
 
@@ -110,3 +126,5 @@ Especially useful to visualize the Duff-Porter fill/mask operations:
 ## Note-worthy reads
 
 + Stamen's Shawn Allen's [blog post](http://content.stamen.com/trees-cabs-crime_in_venice) about color composting
++ [Mapnik reference](https://github.com/mapnik/mapnik/wiki/Compositing) about compositing, also [here](http://mapnik.org/news/2012/08/27/stamen-compositing-mapnik-v2.1/), and [here](http://mapnik.org/news/2012/04/26/image-filters/)
+
